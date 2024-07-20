@@ -128,25 +128,20 @@ body {
         color: aliceblue;
     }
 
-    .ui .ponto {
-        width: 20px;
-        height: 20px;
-        background-color: #a460f9;
+     .tittle-left {
         position: absolute;
-        top: 120px;
-        left: 150px;
-        border-radius: 50%;
-       
-      
-
+        top: 400px;
+        transform: rotate(-90deg);
+        font-size: 3rem;
+        
     }
 
-    .description {
+    .square-01{
         position: absolute;
         width: 190px;
         height: 100px;
         top: 20%;
-        left: 98%;
+        left: 97%;
         transform: translateX(-50%);
         display: flex;
         justify-content: center;
@@ -158,7 +153,7 @@ body {
     }
 
 
-    .description-02 {
+    .square-02 {
         color: #ffffff;
         position: absolute;
         width: 300px;
@@ -169,20 +164,43 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center center;
+        align-items: center ;
         color: aliceblue;
-      
-       
+        border: solid 2px white;
 
+    }
+    .square-02 h2 {
+        text-transform: uppercase;
+        font-size: 4,27pt;
+        font-weight:25;
+    }
+
+    button {
+        width: 300px;
+        height: 60px;
+        background-color: #a460f9;
+        color: #ffffff;
+        width: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 10px;
+        gap: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #ffffff;
+        color: black;
+        transition: 0.7s;
     }
 
 
-    .description-03 {
+    .square-03 {
         color: #ffffff;
         position: absolute;
-        width: 300px;
-        height: 200px;
-        top: 40%;
+        top: 60%;
         left: 20%;
         display: flex;
         justify-content: center;
@@ -190,70 +208,15 @@ body {
         align-items: center;
         color: aliceblue;
         text-transform: uppercase;
+        border: solid 2px white;
       
        
 
     }
 
-    .description-02 h2 {
-        text-transform: uppercase;
-        font-size: 4,27pt;
-        font-weight:25;
-    }
-
-    .description-02 button {
-        width: 300px;
-        height: 60px;
-        background-color: #a460f9;
-        color: #ffffff;
-    }
-
-    .button-01 {
-        width: 290px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        right: 10px;
-        gap: 20px;
-        padding-top: 20px;
-        
-    }
-
-     .button-01 button {
-        background-color: #a460f9;
-        color: #ffffff;
-        text-transform: uppercase;
-        cursor: pointer;
-
-    }
-    .button-01 button:hover {
-        background-color: #ffffff;
-        color: black;
-        transition: 0.7s;
-
-
-    }
-
-
-
-  
-
- 
-
-
-
-
-
-    p {
-        padding-top:10px ;
-        font-size: 14px;
-    }
-
-   
-
-    .man .backgound {
+     .backgound {
         position: absolute;
-        top: 20%;
+        top: 30%;
         left: 50%;
         transform: translateX(-50%);
         width: 800px;
@@ -262,6 +225,15 @@ body {
         border-radius: 50%;
         display: flex;
       
+    }
+
+    .man {
+        height: 80%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
     }
 
     .man img {
@@ -291,46 +263,39 @@ body {
         padding: 20px;
     }
     
-    .align-items {
+    .square-list {
+       max-width: 600px;
         display: flex;
-        flex-wrap: wrap;
         list-style-type: none;
         padding: 0;
-        margin: 0;
         justify-content: center;
+        align-items: center;
+
+    
+        
     }
     
-    .align-items li {
-        margin: 10px;
+    .square-list li {
+        font-size: 20px;
         text-align: left;
         color: #ffffff;
     }
+
+    .square-list .number {
+        font-size: 50px ;
+        
+
+        
+    }
+
+    .square-list .highlight {
+        font-size: 60px;
+        display: flex;
+        
+ 
+      
+    }
     
-    .align-items li[class^="nummer-1"] {
-        font-size: 40px;
-        font-weight: bold;
-        align-self: center;
-    }
-
-    .align-items li[class^="nummer-2"] {
-        font-size: 40px;
-        font-weight: bold;
-        align-self: center;
-    }
-
-    
-    .align-items li[class^="nummer-3"] {
-        font-size: 40px;
-        font-weight: bold;
-        align-self: center;
-    }
-
-    .align-items li[class^="caracter"] {
-        font-size: 40px;
-        font-weight: bold;
-        align-self: center;
-        color: #a460f9;
-    }
 
     .arrows , .arrows-1 {
         width: 20vw;
@@ -367,7 +332,7 @@ body {
     
 
 
-    .content-02 {
+    .content-01 {
         overflow: hidden;
         position: absolute;
         display: flex;
@@ -380,95 +345,78 @@ body {
         color: #ffffff;
         box-sizing: border-box;
         
-    }
+   }
 
-    .content-02 p {
-        font-size: 15px;
-        text-transform: uppercase;
-        
-       
-    }
-
-    .text-1, .text-2 {
-        
-        display: flex;
-        text-align: center; 
-        
-    }
-
-    .text-1  {
-        position: absolute;
-        right: 90%;
-        display: flex;
-        transform: rotate(-90deg);
-     
-    }
-
-    .text-2 {
-        position: absolute;
-        left: 90%;
-        display: flex;
-        transform: rotate(90deg);
-     
-    }
-
-  
-
-    .content-02 .titulo  {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      font-size: 60px;
-        
-        
-        
-    }
-
-    .circulo {
-       
-        position: absolute;
-      
-    }
-
-    .titulos-laterais {
-        position: absolute;
-        bottom: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 70vw;
-        color: #181818;
-    }
-
-    .titulo-01 {
-        position: absolute;
-        top: 10%;
-    }
-
-    .titulos-laterais-01 {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 90%;
-        width: 100%;
-        gap: 70vw; /* Ajuste conforme necessário */
-        color: #ffffff;
-    }
+   .Accept{ 
+    position: absolute;
+    font-size: 200px;
+    text-align: center;
     
-    .titulos-laterais-01 span:first-child {
-        flex: 1; /* Ajusta o espaço para o primeiro span */
-        text-align: right; /* Alinha o texto à direita */
-        margin-right: 10px; /* Ajuste conforme necessário */
-    }
     
-    .titulos-laterais-01 span:last-child {
-        flex: 1; /* Ajusta o espaço para o segundo span */
-        text-align: left; /* Alinha o texto à esquerda */
-        margin-left: 10px; /* Ajuste conforme necessário */
-    }
+   }
+   .circle {
+    position: absolute;
+    width: 60%;
+   }
 
+
+
+.content-01 .square-04   {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    top: 90%;
+    gap: 60%;
+    font-size: 30px;
+   }
+
+   .content-01 .square-discover {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: solid 2px white;
+    gap: 70%;
+   }
+
+   .square-discover p {
+    transform: rotate(90deg);
+    font-size: 20px;
+    text-transform: uppercase;
+   }
+
+   .square-discover .invert {
+    transform: rotate(-90deg);
+   }
+
+   .content-03 .square-05   {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    top: 5%;
+    gap: 60%;
+    font-size: 20px;
+    color: #ffffff;
+   }
+
+   .content-03 .square-05 span {
+    font-size: 12px;
+   }
+
+   .content-03 .square-05 .edition-2024
+
+
+
+   
+    
     .content-03 {
         position: absolute;
         display: flex;
@@ -478,20 +426,33 @@ body {
         width: 100%;
         height: 100%;
         background-color: #000000;
-        gap: 10%;
-        padding: 0 5% 0 5%;
+        gap: 5%;
+        padding: 0;
+        margin: 0;
     }
 
     .box {
-        position: relative;
-        display: block;
+        width: 300px;
+        height: 500px;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 30%;
-        height: 40%;
+        padding: 0;
+        margin: 0 auto;
         border: solid 4px white;
+        color: #ffffff;
         
         
+    }
+
+    .box .dados {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding-top: 70px;
     }
 
     .box h2 {
@@ -507,84 +468,28 @@ body {
         
     }
 
-
-    .dados {
-        position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    gap: 10%;
-        
-    }
-
-    .dados h3 {
-        font-size: 40px;
+    .box .dados h3 {
         text-transform: uppercase;
     }
 
-    .box .tittle-box-01::after {
-        font-size: 40px;
-        content: "01";
-        padding: 0 10px 0 10px;
-        justify-content: center;
-        align-items: center;
+    .highlight {
         color: #a460f9;
-       
     }
 
-    .box .tittle-box-02::after {
-        font-size: 40px;
-        content: "02";
-        padding: 0 10px 0 10px;
-        justify-content: center;
-        align-items: center;
-        color: #a460f9;
-       
+    .info {
+       padding: 30px 0 30px 0;
     }
+        
 
-    .box .tittle-box-03::after {
-        font-size: 40px;
-        content: "03";
-        padding: 0 10px 0 10px;
-        justify-content: center;
-        align-items: center;
-        color: #a460f9;
-       
-    }
 
-    .box .tittle-box-04::after {
-        font-size: 40px;
-        content: "04";
-        padding: 0 10px 0 10px;
-        justify-content: center;
-        align-items: center;
-        color: #a460f9;
-       
-    }
     
-
-    .box p {
-        text-align: center;
-        width: 16vh;
-        font-size: 20px;
-        padding-bottom: 60px;
-    }
-
     .box button {
-        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 180px;
         height: 70px;
         font-size: 20px;
-        gap: 20px;
-        top: 100%;
         background-color: #a460f9;
         color: #ffffff;
         text-transform: uppercase;
