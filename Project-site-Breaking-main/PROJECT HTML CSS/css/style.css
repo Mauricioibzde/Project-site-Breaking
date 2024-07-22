@@ -166,7 +166,6 @@ body {
         flex-direction: column;
         align-items: center ;
         color: aliceblue;
-        border: solid 2px white;
 
     }
     .square-02 h2 {
@@ -208,7 +207,6 @@ body {
         align-items: center;
         color: aliceblue;
         text-transform: uppercase;
-        border: solid 2px white;
       
        
 
@@ -367,10 +365,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px white;
     top: 90%;
     gap: 60%;
     font-size: 30px;
+    color: #181818;
    }
 
    .content-01 .square-discover {
@@ -380,7 +378,6 @@ body {
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    border: solid 2px white;
     gap: 70%;
    }
 
@@ -400,7 +397,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px white;
     top: 5%;
     gap: 60%;
     font-size: 20px;
@@ -410,8 +406,6 @@ body {
    .content-03 .square-05 span {
     font-size: 12px;
    }
-
-   .content-03 .square-05 .edition-2024
 
 
 
@@ -512,7 +506,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        bottom: 20%;
+       top: 75%;
         color: #ffffff;
         gap: 30px;
     }
@@ -537,33 +531,45 @@ body {
 
     .circulo-01{
         position: absolute;
-        bottom: 95%;
+        bottom: 80%;
         right: 95%;
       
         transform: rotate(140deg);
 
     }
 
+
     .description-list {
-        max-width: 600px;
-      position: absolute;
+        position: absolute;
+        left: 10%;
+       width: 90%;
+       height: 400px;
+      border: solid 2px white;
+      top: 20%;
 
     }
 
     .list-01 , .list-02 {
         display: flex;
         text-align: center;
+        
        
     }
 
     .description-list h2 {
-        text-transform: uppercase;
-        font-size: 4,27pt;
+        font-size: 60px;
         font-weight:25;
+        padding-bottom: 20px;
     }
 
+    .description-list p {
+        padding-bottom: 20px;
+        max-width: 310px;
+    }
+
+
     .description-list button {
-        width: 300px;
+        width: 200px;
         height: 60px;
         background-color: #a460f9;
         color: #ffffff;
@@ -572,10 +578,7 @@ body {
     .button-01 {
         width: 290px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        right: 10px;
-        gap: 20px;
         padding-top: 20px;
         
     }
@@ -594,6 +597,76 @@ body {
 
 
     }
+
+    .description-list .backgound-01 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background-color: #a460f9;
+        border-radius: 50%;
+        left: 70%;
+        bottom: 20%;
+    }
+
+    .description-list .backgound-01 img {
+        width: 250px;
+       
+    }
+
+    .circulo-02{
+        position: absolute;
+        top: 120%;
+        left: 70%;
+        
+
+    }
+
+
+    .content-04 .man-02 {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px white;
+
+    }
+     .man-02 .backgound-02 {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #a460f9;
+        border-radius: 50%;
+    }
+
+ 
+
+    .circulo-03{
+        position: absolute;
+
+    }
+
+    .description-list-01 {
+        position: absolute;
+        justify-content: end;
+        border: solid 2px white;
+        left: 80%;
+    }
+
+
+
+
+
+
+
+  
     
 
 
