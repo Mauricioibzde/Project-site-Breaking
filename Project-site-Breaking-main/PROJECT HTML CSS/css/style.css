@@ -12,6 +12,7 @@
 html, body {
     height: 100%; 
     overflow: auto;
+    background-color: #000000;
     
    
 }
@@ -25,7 +26,7 @@ body {
 }
 
 .content {
-    background-color: black;
+
     position: relative;
     width: 100vw;
     height: 100%; 
@@ -260,6 +261,8 @@ body {
         text-decoration: none;
         padding: 20px;
     }
+
+    
     
     .square-list {
        max-width: 600px;
@@ -339,7 +342,6 @@ body {
         top: 100%;
         width: 100%;
         height: 80%;
-        background-color: #000000;
         color: #ffffff;
         box-sizing: border-box;
         
@@ -419,7 +421,6 @@ body {
         top: 180%;
         width: 100%;
         height: 100%;
-        background-color: #000000;
         gap: 5%;
         padding: 0;
         margin: 0;
@@ -521,7 +522,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 100%;
+        top: 250%;
         width: 100%;
         height: 100%;
         gap: 10%;
@@ -531,7 +532,7 @@ body {
 
     .circulo-01{
         position: absolute;
-        bottom: 80%;
+        bottom: 70%;
         right: 95%;
       
         transform: rotate(140deg);
@@ -542,9 +543,8 @@ body {
     .description-list {
         position: absolute;
         left: 10%;
-       width: 90%;
+       width: 400px;
        height: 400px;
-      border: solid 2px white;
       top: 20%;
 
     }
@@ -598,13 +598,18 @@ body {
 
     }
 
+    .description-list .man-01 {
+        position: absolute;
+        left: 70vw;
+    }
+
     .description-list .backgound-01 {
         position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         background-color: #a460f9;
         border-radius: 50%;
         left: 70%;
@@ -612,7 +617,7 @@ body {
     }
 
     .description-list .backgound-01 img {
-        width: 250px;
+        width: 350px;
        
     }
 
@@ -627,38 +632,303 @@ body {
 
     .content-04 .man-02 {
         position: absolute;
-        width: 100%;
-        height: 700px;
+        top: 40vw;
+        left: 10%;
+        width: 600px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid 2px white;
+
+       
+        
 
     }
      .man-02 .backgound-02 {
+        position: relative;
         width: 400px;
         height: 400px;
-        position: absolute;
         display: flex;
-        justify-content: center;
         align-items: center;
         background-color: #a460f9;
         border-radius: 50%;
     }
 
+    .backgound-02 .person {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50px;
+    }
+
+
+    .content-04 .circulo-03 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-04 .circulo-03 img {
+        width: 600px;
+   
+    }
+
+
+    .content-04 .description-list-01 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 40vw;
+        left: 70vw;
+        
+    
+
+    }
+
+    .description-list-01 h1 {
+        color: #181818;
+        display: flex;
+        transform: rotate(-90deg);
+        
+    }
+
+    .content-06 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 270vw;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+       
+    }
+
+    .square-discover {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        }
+
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 40%;
+        background-color: #ffffff;
+        color: #000000;
+
+    }
+
+
+
+    .content-05 {
+        color: #ffffff;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 250vw;
+     width: 100%;
+     height: 30vw;
+       gap: 5%;
+    }
+
+    .content-05 .titulo {
+        position:absolute;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-05 .item {
+      
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 600px;
+        text-align: center;
+        color: #ffffff;
+        top: 5vw;
+        
+
+    }
+
+    .item .background {
+        position: relative;
+        bottom: 100px;
+        width:50%;
+        height: 200px;
+        border-radius: 50%;
+        border: solid 5px #a460f9 ;
+       left: 95px;
+        
+        
+        overflow: hidden;
+    }
+
+    .item .background img {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        
+}
+    
+
+    .item .conteudo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .item  .star {
+       
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item p {
+        max-width: 300px;
+    }
+
+    .content-05 .arrows-item {
+        width: 20vw;
+        position: absolute;
+        top: 30vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+        
+        
+
+    }
+
+    .man-03 {
+
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    left: 0%;
+    bottom: 10%;
+    }
+
+    .man-03 img {
+        position:relative;
+        top: 10%;
+     
+    }
+
+
+
+    .rodape-end {
+        display: flex;
+        top: 90%;
+        position: absolute;
+        width: 100%;
+        height: 900px;
+        background-color: #a460f9;
+        gap: 10%;
+        color: #ffffff;
+        
+       
+    }
+
+
+
+    .input-right {
+        position: relative;
+        left: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        bottom: 80px;
+        align-items: center
+
+    }
+
+    .input-right .button-rodape {
+        position: absolute;
+        top: 26vw;
+        left: 35%;
+        
+    }
+
+    input {
+        position: relative;
+        top: 400px;
+        background-color: #000000;
+        border: solid 3px #a460f9 ;
+        width: 900px;
+        height: 100px;
+        color: #ffffff;
+        font-size: 60px;
+    }
+   .big {
+   
+    
+        width: 900px;
+        height: 300px;
+    }
+
+    .text-rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+        width: 400px;
+    }
+
+    .about-line {
+        width: 100px;
+        border-bottom: solid 4px white;
+    }
+
+    .what-line {
+       
+        width: 180px;
+        border-bottom: solid 4px white;
+    }
+
+    .content-07 {
+        position: absolute;
+        top: 400vw;
+        width: 100%;
+        
+       
+    }
+
+
+  
+
+    
+    
+
+
  
 
-    .circulo-03{
-        position: absolute;
 
-    }
 
-    .description-list-01 {
-        position: absolute;
-        justify-content: end;
-        border: solid 2px white;
-        left: 80%;
-    }
+ 
+
+
 
 
 
